@@ -6,7 +6,7 @@ SlackのIncoming Webhookでメッセージを送るためのスクリプトで�
 スクリプトの実行状況等を通知するために作成しました。<br>
 テキストの送信のみに対応したシンプルなスクリプトとなっています。<br>
 <br>
-※LINE Notifyでも同様の通知が行えます。LINE Notyfy用のスクリプトは<a href="https://github.com/matyalatte/line_notify_util">こちら</a><br>
+※LINE Notifyでも同様の通知が行えます。LINE Notify用のスクリプトは<a href="https://github.com/matyalatte/line_notify_util">こちら</a><br>
 
 ## ファイル一覧
 - slack_webhook.py: python用のスクリプト。SlackWebhook("Webhook URL").notify("文字列")でメッセージを送れる。
