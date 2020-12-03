@@ -1,7 +1,7 @@
 # slack_webhook_util
 utils for slack webhook<br>
 <br>
-<img src="https://raw.githubusercontent.com/matyalatte/slack_webhook_util/main/image.png" width="320px"><br>
+<img src="https://raw.githubusercontent.com/matyalatte/slack_webhook_util/master/image.png" width="320px"><br>
 SlackのIncoming Webhookでメッセージを送るためのスクリプトです。<br>
 スクリプトの実行状況等を通知するために作成しました。<br>
 テキストの送信のみに対応したシンプルなスクリプトとなっています。<br>
