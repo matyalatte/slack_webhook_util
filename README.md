@@ -9,9 +9,10 @@ SlackのIncoming Webhookでメッセージを送るためのスクリプトで�
 ※LINE Notifyでも同様の通知が行えます。LINE Notify用のスクリプトは<a href="https://github.com/matyalatte/line_notify_util">こちら</a><br>
 
 ## ファイル一覧
-- slack_webhook.py: python用のスクリプト。SlackWebhook("Webhook URL").notify("文字列")でメッセージを送れる。
-- slack_webhook.gs: GAS用のスクリプト。slack_webhook_notify("文字列")でメッセージを送れる。URLにWebhook URLを記入して使う。
-- slack_webhook.bat: curlでSlackにメッセージを送る
+- slack_webhook.py: python用のスクリプト。`SlackWebhook("Webhook URL").notify("文字列")`でメッセージを送れる。
+- slack_webhook.gs: GAS用のスクリプト。`slack_webhook_notify("文字列")`でメッセージを送れる。URLにWebhook URLを記入して使う。
+- slack_webhook.bat: curlでSlackにメッセージを送る。`slack_webhook.bat 文字列`でメッセージを送れる。
+- slack_webhook.sh: curlでSlackにメッセージを送る。`sh slack_webhook.sh 文字列`でメッセージを送れる。
 <br>
 
 ## Incoming Webhookの使い方について
